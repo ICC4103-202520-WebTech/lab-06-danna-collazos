@@ -56,8 +56,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_10_02_181459) do
     t.string "title"
     t.integer "cook_time"
     t.string "difficulty"
-    t.string "record_type", null: false
-    t.uuid "record_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

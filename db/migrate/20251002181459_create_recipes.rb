@@ -4,7 +4,6 @@ class CreateRecipes < ActiveRecord::Migration[8.0]
       t.string :title
       t.integer :cook_time
       t.string :difficulty
-      t.references :record, null: false, polymorphic: true, index: false, type: :uuid
 
       t.timestamps
     end
