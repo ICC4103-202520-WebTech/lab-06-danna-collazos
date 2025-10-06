@@ -4,13 +4,22 @@
 
 <h1>Recipes</h1>
 
-<div id="recipes">
-  <% @recipes.each do |recipe| %>
-    <%= render recipe %>
-    <p>
-      <%= link_to "Show this recipe", recipe %>
-    </p>
-  <% end %>
-</div>
+<table class"table">
+  <thead>
+    <tr>
+      <th class="col">Title</th>
+      <th class="col">Cook time</th>
+      <th class="col">Difficulty</th>
+      <th></th>
+  <thead>
+  <tbody>
+    
+
+
+</table>
+
+
+
+
 
 <%= link_to "New recipe", new_recipe_path %>
